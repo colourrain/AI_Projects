@@ -1,0 +1,31 @@
+[33mWARNING[0m:  [15-04-2025 21:52:08] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [15-04-2025 21:52:09] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [15-04-2025 21:52:09] Starting component System
+[36mDEBUG[0m:    [15-04-2025 21:52:09] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [15-04-2025 21:52:09] Starting component SqliteDB
+[36mDEBUG[0m:    [15-04-2025 21:52:09] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [15-04-2025 21:52:09] Starting component Posthog
+[36mDEBUG[0m:    [15-04-2025 21:52:09] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [15-04-2025 21:52:09] Starting component SegmentAPI
+[32mINFO[0m:     [15-04-2025 21:52:09] Started server process [[36m31796[0m]
+[32mINFO[0m:     [15-04-2025 21:52:09] Waiting for application startup.
+[32mINFO[0m:     [15-04-2025 21:52:09] Application startup complete.
+[32mINFO[0m:     [15-04-2025 21:52:09] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [15-04-2025 21:55:04] ::1:52001 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-04-2025 21:55:04] ::1:52001 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [15-04-2025 22:21:01] ::1:55545 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-04-2025 22:21:10] ::1:55550 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [15-04-2025 22:21:10] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [15-04-2025 22:21:10] ::1:55550 - "POST /api/v1/collections/44f3f843-944f-4e01-9715-22dfd182c828/add HTTP/1.1" 201
+[33mWARNING[0m:  [15-04-2025 22:21:13] Retrying (Retry(total=1, connect=2, read=2, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1018)')': /batch/
+[32mINFO[0m:     [15-04-2025 22:21:49] ::1:55641 - "GET /api/v1/collections/44f3f843-944f-4e01-9715-22dfd182c828/count HTTP/1.1" 200
+[32mINFO[0m:     [15-04-2025 22:22:01] ::1:55655 - "POST /api/v1/collections/44f3f843-944f-4e01-9715-22dfd182c828/get HTTP/1.1" 200
+[32mINFO[0m:     [15-04-2025 22:22:28] ::1:55767 - "POST /api/v1/collections/44f3f843-944f-4e01-9715-22dfd182c828/get HTTP/1.1" 200
+[32mINFO[0m:     [15-04-2025 22:24:43] ::1:55953 - "GET /api/v1/collections/rag_db?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [15-04-2025 22:25:16] ::1:55987 - "POST /api/v1/collections/44f3f843-944f-4e01-9715-22dfd182c828/get HTTP/1.1" 200
+[32mINFO[0m:     [15-04-2025 22:25:59] ::1:56074 - "POST /api/v1/collections/44f3f843-944f-4e01-9715-22dfd182c828/get HTTP/1.1" 200
+[32mINFO[0m:     [15-04-2025 22:29:00] ::1:56521 - "POST /api/v1/collections/44f3f843-944f-4e01-9715-22dfd182c828/query HTTP/1.1" 200
+[32mINFO[0m:     [15-04-2025 22:31:59] ::1:56829 - "POST /api/v1/collections/44f3f843-944f-4e01-9715-22dfd182c828/query HTTP/1.1" 200
+[32mINFO[0m:     [15-04-2025 22:34:22] ::1:57020 - "POST /api/v1/collections/44f3f843-944f-4e01-9715-22dfd182c828/query HTTP/1.1" 200
+[32mINFO[0m:     [15-04-2025 22:36:51] ::1:57239 - "POST /api/v1/collections/44f3f843-944f-4e01-9715-22dfd182c828/query HTTP/1.1" 200
+[32mINFO[0m:     [15-04-2025 22:38:38] ::1:57408 - "POST /api/v1/collections/44f3f843-944f-4e01-9715-22dfd182c828/query HTTP/1.1" 200

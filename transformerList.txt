@@ -1,0 +1,12 @@
+conda install -c conda-forge jsonlines -y
+conda install -c huggingface transformers -y
+conda install -c conda-forge ipywidgets -y
+conda install scikit-learn -y
+conda install matplotlib -y
+conda install pandas numpy -y
+conda install -c conda-forge inflect -y
+pip install datasets -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install torchcodec
+pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0
+conda install ffmpeg -y
+conda install gradio -y

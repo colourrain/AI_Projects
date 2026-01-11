@@ -1,0 +1,8 @@
+conda install matplotlib -y
+conda install pandas -y
+conda install scikit-learn -y
+conda install keras -y
+conda install tensorflow -y
+conda install jsonlines -y
+conda install -c huggingface -c conda-forge datasets
+pip3 install huggingface_hub

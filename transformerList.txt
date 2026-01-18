@@ -1,12 +1,34 @@
+
 conda install -c conda-forge jsonlines -y
-conda install -c huggingface transformers -y
 conda install -c conda-forge ipywidgets -y
 conda install scikit-learn -y
 conda install matplotlib -y
 conda install pandas numpy -y
 conda install -c conda-forge inflect -y
-pip install datasets -i https://pypi.tuna.tsinghua.edu.cn/simple
-pip install torchcodec
-pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0
 conda install ffmpeg -y
 conda install gradio -y
+conda install openai -y
+conda install langchain langchain_core langchain_community langchain_huggingface langchain_openai langchain_experimental
+conda install ragas -y
+conda install sentence-transformers -y
+
+pip3 install datasets
+pip3 install torchcodec
+pip3 install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0
+pip3 install chromadb
+pip3 install langchain_unstructured
+pip3 install lxml
+pip3 install pymupdf
+pip3 install tabulate
+pip3 install modelscope
+pip3 install transformers
+pip3 install unstructured
+pip3 install python-pptx
+pip3 install docx2txt
+pip3 install python-docx
+pip3 install openpyxl
+
+# config kernel
+python -m ipykernel install --user --name your_kernel_name --display-name "Your Kernel Name"
+jupyter kernelspec list
+jupyter kernelspec remove 内核名
